@@ -1,0 +1,128 @@
+#tout
+{
+  color: darkslategray;
+  font-size: 18px;
+  margin: 40px auto;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  min-width:1000px;
+  height:100%;
+  min-height:650px;
+}
+
+  header
+  {
+    height:5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:flex-end;
+  }
+
+    #en-tete
+    {
+      display:flex;
+      font-size:small;
+      align-items:center;
+    }
+
+      #en-tete a 
+      {
+        text-decoration: none;
+        color: darkslategray;
+      }
+
+    .haut
+    {
+      padding:5px 5px 5px 5px;
+    }
+
+  #Logoetboutons /*Correspond à la section centrale*/
+  {
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+  }
+
+    .logobarre
+    {
+      display:flex;
+      flex-direction:row;
+      align-items:center;
+      justify-content:flex-end;
+      padding:15px 15px 15px 15px;
+    }
+
+    .logobarre, #boutons
+    {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .milieu
+    {
+      padding:5px 5px 5px 5px;
+      background-color: #EEEE;
+    }
+
+    #covid19
+    {
+      display:flex;
+      align-items:center;
+    }
+
+      #covid19 a
+      {
+      font-size:small;   
+      }
+    
+      .gestes
+      {
+        padding:5px;
+      }
+
+  footer
+  {
+    background-color: #eeeeee;
+    
+    font-size:smaller;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+  }
+
+    #pieddepage
+    {
+      display:flex;
+      height:30px;
+    }
+
+      #pieddepage a 
+      {
+        text-decoration: none;
+        color: darkslategray;
+      }
+
+      #France
+      {
+        display:flex;
+        justify-content:flex-start;
+      }
+
+      .bas1
+      {
+        display:flex;
+        justify-content: flex-start;
+        padding:5px 5px 5px 5px;
+      }
+
+      .bas2
+      {
+        display:flex;
+        justify-content: flex-end;
+        padding:5px 5px 5px 5px;
+      }
